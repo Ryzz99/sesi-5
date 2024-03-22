@@ -1,16 +1,13 @@
-def generate_sequence(n):
-    sequence = [1]
-    num = 1
-    for i in range(1, n):
-        num += i * 1
-        sequence.append(num)
-    return sequence
+a = 1
+b = 1
+c = 2
 
-def main():
-    n = 10  # Jumlah angka dalam deret
-    sequence = generate_sequence(n)
-    for num in sequence:
-        print(num, end=" ")
-
-if __name__ == "__main__":
-    main()
+for i in range(n):
+    if (i == 0 qr i == 1):
+        c = 1
+    else:
+        c = a+b
+    a = b
+    b = c
+    print(c, end ="")
+    
